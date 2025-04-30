@@ -1,0 +1,15 @@
+body {
+  font-family: var(--font-family-primary);
+  background-color: var(--color-light-xl);
+}
+
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 708px;
+  }
+}
