@@ -175,4 +175,8 @@
   .first-screen__content-text-link {
     margin-inline: 0px;
   }
+
+  .pets__slider-card:nth-child(2) {
+    display: none;
+  }
 }

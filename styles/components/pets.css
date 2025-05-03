@@ -57,8 +57,42 @@
   margin-inline: 41px;
 }
 
+.pets__control-mobile {
+  display: none;
+}
+
 .pets__slider-card-button_primary {
   width: 261px;
   background-color: var(--color-primary);
   margin-top: 75px;
+}
+
+@media screen and (max-width: 1280px) {
+  .pets__slider-card:nth-child(3) {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pets__slider-card:nth-child(2) {
+    display: none;
+  }
+
+  .pets__slider {
+    flex-direction: column;
+  }
+
+  .pets__slider > .pets__slider-button {
+    display: none;
+  }
+
+  .pets__control-mobile {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 80px;
+  }
+
+  .pets__slider-card-button_primary {
+    margin-top: 42px;
+  }
 }
