@@ -25,6 +25,11 @@
             <a href="#" class="header__menu-element">Help the shelter</a>
             <a href="#" class="header__menu-element">Contacts</a>
           </div>
+          <div class="header__menu-mobile">
+            <div class="header__menu-mobile-element"></div>
+            <div class="header__menu-mobile-element"></div>
+            <div class="header__menu-mobile-element"></div>
+          </div>
         </header>
         <div class="first-screen__content container">
           <div class="first-screen__content-text">
@@ -48,7 +53,7 @@
         </div>
       </div>
     </section>
-    <!-- <section class="about-us">
+    <section class="about-us">
       <img class="about-us__image" src="./assets/image/about-pets.png" alt="" />
       <div class="about-us__text">
         <h3 class="heading">About the shelter “Cozy House”</h3>
@@ -68,38 +73,70 @@
         </p>
       </div>
     </section>
-    <section class="pets container">
-      <h3 class="heading">Our friends who are looking for a house</h3>
-      <div class="pets__slider">
-        <div class="pets__slider-card">
-          <img
-            class="pets__slider-card-image"
-            src="./assets/image/pets-katrine.png"
-            alt=""
-          />
-          <p class="pets__slider-name">Katrine</p>
-          <a href="#" class="pets__slider-card-button">Learn more</a>
+    <section class="pets">
+      <div class="container pets__container">
+        <h3 class="heading heading_large">
+          Our friends who are looking for a house
+        </h3>
+        <div class="pets__slider">
+          <button class="pets__slider-button">
+            <svg
+              width="14"
+              height="6"
+              viewBox="0 0 14 6"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M14 2V4H3V6L0 3L3 0V2H14Z" fill="#292929" />
+            </svg>
+          </button>
+          <div class="pets__slider-cards">
+            <div class="pets__slider-card">
+              <img
+                class="pets__slider-card-image"
+                src="./assets/image/pets-katrine.png"
+                alt=""
+              />
+              <p class="pets__slider-name">Katrine</p>
+              <a href="#" class="pets__slider-card-button">Learn more</a>
+            </div>
+            <div class="pets__slider-card">
+              <img
+                class="pets__slider-card-image"
+                src="./assets/image/pets-jennifer.png"
+                alt=""
+              />
+              <p class="pets__slider-name">Jennifer</p>
+              <a href="#" class="pets__slider-card-button">Learn more</a>
+            </div>
+            <div class="pets__slider-card">
+              <img
+                class="pets__slider-card-image"
+                src="./assets/image/pets-woody.png"
+                alt=""
+              />
+              <p class="pets__slider-name">Woody</p>
+              <a href="#" class="pets__slider-card-button">Learn more</a>
+            </div>
+          </div>
+          <button class="pets__slider-button">
+            <svg
+              width="14"
+              height="6"
+              viewBox="0 0 14 6"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M0 4V2L11 2V0L14 3L11 6V4L0 4Z" fill="#292929" />
+            </svg>
+          </button>
         </div>
-        <div class="pets__slider-card">
-          <img
-            class="pets__slider-card-image"
-            src="./assets/image/pets-jennifer.png"
-            alt=""
-          />
-          <p class="pets__slider-name">Jennifer</p>
-          <a href="#" class="pets__slider-card-button">Learn more</a>
-        </div>
-        <div class="pets__slider-card">
-          <img
-            class="pets__slider-card-image"
-            src="./assets/image/pets-woody.png"
-            alt=""
-          />
-          <p class="pets__slider-name">Woody</p>
-          <a href="#" class="pets__slider-card-button">Learn more</a>
-        </div>
+        <a
+          class="pets__slider-card-button pets__slider-card-button_primary"
+          href="#"
+          >Get to know the rest</a
+        >
       </div>
-      <a class="pets__button" href="#">Get to know the rest</a>
-    </section> -->
+    </section>
   </body>
 </html>
