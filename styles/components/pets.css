@@ -1,6 +1,8 @@
 .pets {
-  margin-top: 80px;
+  margin-top: 100px;
   background-color: var(--color-light-l);
+  padding-bottom: 100px;
+  padding-top: 80px;
 }
 
 .pets__slider {
@@ -41,6 +43,7 @@
   line-height: 1;
   color: var(--color-dark-l);
   text-align: center;
+  font-weight: 400;
 }
 
 .pets__slider-card-button {
@@ -52,6 +55,7 @@
   color: var(--color-dark-3xl);
   font-size: 17px;
   line-height: 1.3;
+  font-weight: 400;
   border-radius: 100px;
   padding: 15px 45px;
   margin-inline: 41px;
@@ -68,6 +72,10 @@
 }
 
 @media screen and (max-width: 1280px) {
+  .pets {
+    padding-top: 80px;
+  }
+
   .pets__slider-card:nth-child(3) {
     display: none;
   }
@@ -94,5 +102,9 @@
 
   .pets__slider-card-button_primary {
     margin-top: 42px;
+  }
+
+  .pets {
+    padding-block: 42px;
   }
 }
