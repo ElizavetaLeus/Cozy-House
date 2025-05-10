@@ -46,3 +46,39 @@
   gap: 33px;
   width: 302px;
 }
+
+@media screen and (max-width: 1280px) {
+  .footer {
+    padding-top: 30px;
+  }
+
+  .container__footer {
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer__picture {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__title {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .container__footer {
+    gap: 40px;
+  }
+
+  .footer__content {
+    letter-spacing: 1px;
+    max-width: 248px;
+  }
+
+  .footer__picture {
+    margin-top: 0;
+  }
+}
