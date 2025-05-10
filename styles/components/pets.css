@@ -76,6 +76,10 @@
     padding-top: 80px;
   }
 
+  .pets__slider {
+    gap: 12px;
+  }
+
   .pets__slider-card:nth-child(3) {
     display: none;
   }
