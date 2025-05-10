@@ -68,4 +68,51 @@
 }
 
 @media screen and (max-width: 1280px) {
+  .donation__container {
+    display: flex;
+    gap: 60px;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .donation {
+    padding-top: 42px;
+    padding-bottom: 42px;
+  }
+
+  .donation__container {
+    gap: 42px;
+  }
+
+  .donation__content-title {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .donation__content-subtitle {
+    line-height: 1.6;
+  }
+
+  .donation__content-information {
+    max-width: 280px;
+  }
+
+  .donation__content-credit {
+    width: 281px;
+  }
+
+  .donation__content-requisite {
+    font-size: 15px;
+    letter-spacing: 0;
+  }
+
+  .donation__content-information {
+    text-align: justify;
+  }
+
+  .donation__picture {
+    width: 260px;
+    height: 135px;
+  }
 }

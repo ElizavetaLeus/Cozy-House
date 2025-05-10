@@ -65,9 +65,14 @@
     align-items: center;
   }
 
+  .help__card {
+    gap: 20px;
+  }
+
   .help__card-name {
     font-size: 15px;
     line-height: 1.1;
+    width: 130px;
   }
   .help__card:last-child {
     margin-inline-end: auto;
